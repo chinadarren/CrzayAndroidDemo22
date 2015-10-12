@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+              android:orientation="vertical"
+           >
+    <!--定义一个ImageVew组件-->
+    <ImageView
+        android:layout_width="320dp"
+        android:layout_height="320dp"
+        android:id="@+id/imageView"
+        />
+    <!--定义一个Gallery组件-->
+    <Gallery android:id="@+id/gallery"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="25dp"
+             android:unselectedAlpha="0.6"
+             android:spacing="2pt"
+        />
+
+</LinearLayout>
